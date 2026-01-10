@@ -16,6 +16,14 @@
 8. Installed GPU and connected PCIe power
 9. Cable management and final inspection
 
+## Post-Build Configuration
+
+- Installed Windows 11 Pro as host operating system
+- Enabled virtualization support in BIOS
+- Installed Oracle VirtualBox
+- Created multiple virtual machines for testing and lab environments
+- Verified system stability under virtualization workloads
+
 ## Photos
 - Parts: ![](images/01-parts-layout.jpg)
 - In-progress: ![](images/03-in-case-wiring.jpg)
