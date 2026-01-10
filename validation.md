@@ -18,3 +18,18 @@
 - [ ] Intake fans oriented correctly
 - [ ] Cables not blocking airflow
 
+## OS & Virtualization Validation
+
+### Windows 11 Pro
+- [x] OS installed successfully
+- [x] System activated
+- [x] Device drivers installed
+- [x] System updates applied
+- [x] Stable operation confirmed
+
+### Virtualization
+- [x] Hardware virtualization enabled in BIOS
+- [x] Oracle VirtualBox installed
+- [x] Virtual machines created successfully
+- [x] Guest OS boot verified
+- [x] Host system remains stable under VM load
