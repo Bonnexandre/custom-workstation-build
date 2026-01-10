@@ -2,6 +2,22 @@
 
 This workstation hosts a multi-OS virtualization lab built using Oracle VirtualBox on Windows 11 Pro. The lab is designed for IT administration practice, system testing, and cybersecurity experimentation in isolated environments.
 
+## Role Context
+This lab was built to simulate real-world IT environments commonly used in desktop support, system administration, and cybersecurity roles. All systems are isolated to allow safe testing and experimentation.
+
+## Use Cases
+- System administration practice
+- Virtual networking experiments
+- Cybersecurity labs in isolated environments
+- Safe testing without impacting the host OS
+
+## What This Demonstrates
+- Virtual machine deployment and management
+- Multi-OS administration (Windows & Linux)
+- Virtual networking configuration (NAT, Bridged, Internal)
+- Security-focused lab isolation
+- Resource allocation and system stability awareness
+
 ---
 
 ## Host System
@@ -31,7 +47,7 @@ This workstation hosts a multi-OS virtualization lab built using Oracle VirtualB
 
 ---
 
-### Red Hat Linux
+### Red Hat Linux (Enterprise VM)
 - Name: rhhost1
 - OS: Red Hat (64-bit)
 - RAM: 4 GB
@@ -41,12 +57,12 @@ This workstation hosts a multi-OS virtualization lab built using Oracle VirtualB
 
 ---
 
-### Kali Linux
+### Kali Linux (Security VM)
 - Name: kali-linux-2024.3
 - OS: Kali Linux (Debian-based)
 - RAM: 2 GB
 - Network: Bridged Adapter
-- Purpose: Cybersecurity tools, security testing labs
+- Purpose: Cybersecurity tools and security testing labs
 
 ---
 
@@ -59,10 +75,3 @@ This workstation hosts a multi-OS virtualization lab built using Oracle VirtualB
 - OS: Windows 10 (64-bit)
 - Purpose: User workstation simulation
 
----
-
-## Use Cases
-- System administration practice
-- Virtual networking experiments
-- Cybersecurity labs in isolated environments
-- Safe testing without impacting host OS
