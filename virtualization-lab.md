@@ -25,6 +25,20 @@ This lab was built to simulate real-world IT environments commonly used in deskt
 - Virtualization Platform: Oracle VirtualBox
 - Hardware Virtualization: Enabled (Intel VT-x / Nested Paging)
 
+## Virtualization Lab Overview (Visuals)
+
+### Oracle VirtualBox – VM Overview
+![VirtualBox Overview](images/vbox-overview.png)
+
+### Ubuntu Linux VM
+![Ubuntu VM Running](images/ubuntu-running.png)
+
+### Kali Linux VM
+![Kali Linux VM Running](images/kali-running.png)
+
+### Windows Client VM
+![Windows VM Running](images/windows-vm-running.png)
+
 ---
 
 ## Virtual Machines Inventory
